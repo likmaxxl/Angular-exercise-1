@@ -1,0 +1,21 @@
+.action {
+  background-color:rgb(139, 219, 195);
+}
+.horor {
+  background-color:rgb(226, 199, 121);
+}
+.comedy {
+  background-color:rgb(206, 176, 208);
+}
+.western {
+  background-color:rgb(148, 95, 95);
+}
+
+table{
+
+  text-align: center;
+  font-weight: 600;
+}
+table td:nth-child(1){
+  text-align: left;
+}

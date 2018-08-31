@@ -1,0 +1,80 @@
+var app = angular.module("app1",[]);
+app.controller('controller1',function ($scope) {
+$scope.movie=[
+  {
+    title:"Terminator2",
+    ganre:"action",
+    duration:98+"min"
+  },
+  {
+    title:"Fatal",
+    ganre:"action",
+    duration:108+"min"
+  },
+  {
+    title:"Bubs",
+    ganre:"horor",
+    duration:118+"min"
+  },
+  {
+    title:"The Grudge",
+    ganre:"horor",
+    duration:102+"min"
+  },
+  {
+    title:"Conjuring",
+    ganre:"horor",
+    duration:109+"min"
+  },
+  {
+    title:"Alert",
+    ganre:"horor",
+    duration:98+"min"
+  },
+  {
+    title:"American pay",
+    ganre:"comedy",
+    duration:107+"min"
+  },
+  {
+    title:"Guverner",
+    ganre:"action",
+    duration:108+"min"
+  },
+  {
+    title:"Scren",
+    ganre:"comedy",
+    duration:118+"min"
+  },
+  {
+    title:"Glacher",
+    ganre:"comedy",
+    duration:115+"min"
+  },
+  {
+    title:"Altro",
+    ganre:"comedy",
+    duration:97+"min"
+  },
+  {
+    title:"Old west",
+    ganre:"western",
+    duration:115+"min"
+  },
+  {
+    title:"Cauboy S",
+    ganre:"western",
+    duration:103+"min"
+  },
+  {
+    title:"Green",
+    ganre:"action",
+    duration:108+"min"
+  },
+  {
+    title:"Psyho",
+    ganre:"horor",
+    duration:105+"min"
+  }
+]
+})
